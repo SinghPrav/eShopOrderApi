@@ -1,0 +1,13 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: eshop-orderservice
+  couchbase:
+    bootstrap-hosts: "127.0.0.1"
+    bucket:
+      name: admin
+      password: Couch#123
+  data:
+    couchbase:
+      auto-index: true
